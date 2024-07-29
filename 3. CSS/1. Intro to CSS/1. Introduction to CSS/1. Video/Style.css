@@ -1,0 +1,169 @@
+/* universol selector */
+* {
+    margin: 0;
+}
+
+/* body part of page */
+body {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+/* main heading of part */
+h1 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Hover infect */
+h1,
+h2:hover {
+    color: blue;
+}
+
+/* line of heading part */
+hr {
+    background-color: dimgrey;
+    color: dimgrey;
+    border: solid 2px dimgrey;
+    height: 7px;
+}
+
+/* second main heading part */
+h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/* point part of left side */
+ul,
+li {
+    margin-left: 25px;
+}
+
+/* css_intro or css_point to fast part of */
+.css_point {
+    width: 900px;
+    text-overflow: clip;
+
+}
+
+.point_img {
+    border: 6px solid black;
+    border-radius: 25px;
+    float: right;
+    clear: both;
+    margin-top: -525px;
+    margin-right: -99%;
+    width: auto;
+    height: auto;
+}
+
+/* end of css main part */
+
+/* css_application img */
+.application_img {
+    border: 6px solid black;
+    border-radius: 25px;
+    float: right;
+    clear: both;
+    width: 322px;
+    height: auto;
+    margin-top: -345px;
+    margin-right: 5%;
+}
+
+.application1_img {
+    background: transparent;
+}
+
+/* css application part end */
+
+/* syntax part of start*/
+.Syntax {
+    margin-left: 22px;
+}
+
+.css_Syntax1 {
+    border: 6px solid black;
+    border-radius: 25px;
+    margin-left: 52px;
+}
+
+/* syntax part of end*/
+
+/* Comment part of start */
+.css_comment1 {
+    border: 6px solid black;
+    border-radius: 25px;
+    margin-left: 52px;
+}
+
+/* Comment part of end */
+
+/* inline part start */
+
+.css_inline {
+    border: 6px solid black;
+    border-radius: 25px;
+    margin-left: 52px;
+}
+
+/* inline part end */
+
+/* Internal CSS part start */
+.css_internal_img {
+    border: 6px solid black;
+    border-radius: 25px;
+    margin-left: 52px;
+}
+
+/* Internal CSS part end */
+
+/* External css start */
+.external_img {
+    border: 6px solid black;
+    border-radius: 25px;
+    margin-left: 52px;
+}
+
+/* External css end */
+
+b:hover {
+    color: red;
+}
+
+/* table part start */
+table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+td,
+tr,
+th {
+    border: 1px solid #000;
+
+}
+
+th {
+    text-align: center;
+    background-color: aqua;
+}
+
+td {
+    text-align: center;
+
+}
+/* end of table part */
+
+/* end of css */

@@ -1,0 +1,232 @@
+/* universol selector */
+* {
+    margin: 0;
+}
+
+/* body part of page */
+body {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+/* main heading of part */
+h1 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Hover infect */
+h1,
+h2:hover {
+    color: blue;
+}
+
+/* line of heading part start */
+hr {
+    background-color: dimgrey;
+    color: dimgrey;
+    border: solid 2px dimgrey;
+    height: 7px;
+}
+
+/* line of heading part end*/
+
+/* second main heading part start */
+h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* second main heading part end*/
+
+/* therd main heading */
+h3 {
+    margin-left: 12px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3:hover {
+    color: rgb(47, 231, 10);
+}
+
+/* therd main heading */
+
+
+/* pointer part of left side */
+ul,
+li {
+    margin-left: 25px;
+}
+
+/* end pointer part of left side  */
+
+/* bold hover effect start */
+b:hover {
+    color: red;
+}
+
+/* bold hover effect end */
+
+/* importance part of text align  */
+
+.important_css {
+    width: 980px;
+    text-align: justify;
+}
+
+/*  */
+.logo_image {
+    float: right;
+    clear: both;
+    margin-top: -325px;
+    margin-right: -79%;
+}
+
+/* importance part end  */
+
+/* internal, external img setting and or file add */
+.int_ext_css_img {
+    /* width of image */
+    width: 540px;
+
+    /* hight and width for all image adjust */
+    aspect-ratio: 1/1;
+
+    /* width auto adjust all image*/
+    object-fit: contain;
+
+    /* use for baground remove */
+    /* mix-blend-mode: color-burn; */
+
+    margin-left: 25px;
+}
+
+/* internal, external img setting and or file add */
+
+/* inline img setting and or file add */
+.inline_css {
+    width: 30%;
+    aspect-ratio: 2/1;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+/* inline img setting and or file add */
+
+/* selector img */
+.selector_img {
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-left: 125px;
+}
+
+/* selector part end */
+
+/* universal selector start */
+.universal_img {
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-left: 125px;
+}
+
+/* universal selector end */
+
+/* class part start */
+.class_img {
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-left: 125px;
+    aspect-ratio: 3/2;
+}
+
+.class_img1 {
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-left: 125px;
+}
+
+/* class part end */
+
+/* id part of selector */
+.id_selector {
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-left: 125px;
+
+}
+
+/* id part of selector end */
+
+/* attribute part start */
+.attribute_photo {
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-left: 125px;
+
+}
+
+.attribute_selector {
+    border: 2px solid black;
+    border-radius: 2%;
+    border-radius: 2%;
+    margin-left: 125px;
+    padding-bottom: -625px;
+    object-fit: contain;
+}
+
+.attributes1 {
+    margin-right: 825px;
+    margin-top: -27%;
+    clear: both;
+    float: right;
+}
+
+/* attribute part end*/
+
+/* Pseudo Class start */
+.pseudo_selectors {
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-left: 125px;
+}
+
+/* Pseudo Class end */
+
+
+
+
+
+/* table part start */
+table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+td,
+tr,
+th {
+    border: 1px solid #000;
+
+}
+
+th {
+    text-align: center;
+    background-color: aqua;
+}
+
+td {
+    text-align: center;
+
+}
+
+/* end of table part */

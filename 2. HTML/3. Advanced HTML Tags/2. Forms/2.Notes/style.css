@@ -1,0 +1,111 @@
+/* universol selector */
+* {
+    margin: 0;
+}
+
+/* body part */
+body {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+/* line of heading part start */
+hr {
+    background-color: dimgrey;
+    color: dimgrey;
+    border: solid 2px dimgrey;
+    height: 7px;
+}
+
+/* main heading of part */
+h1 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Hover infect */
+h1,
+h2:hover {
+    color: blue;
+}
+
+/* second main heading part start */
+h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* bold hover effect start */
+b:hover {
+    color: red;
+}
+
+/* pointer part of left side */
+ul,
+li,
+span {
+    margin-left: 25px;
+}
+
+/* form part image for code and output */
+.from_code_img {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 140px;
+}
+
+.Form_output_img {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 140px;
+}
+
+/* table part start */
+table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+td,
+tr,
+th {
+    border: 1px solid #000;
+
+}
+
+th {
+    text-align: center;
+    background-color: aqua;
+}
+
+td {
+    text-align: center;
+
+}
+
+/* p tag */
+p {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+/* Static Linkedin page image */
+.static_Linkedin_Page {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 140px;
+}
+
+.element_img {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 140px;
+}

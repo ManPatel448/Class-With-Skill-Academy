@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links & List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <hr>
+    <h1>Links & List</h1>
+    <hr>
+    <br>
+
+    <h2>HTML - Links</h2>
+    <br>
+    <ul class="imp_point">
+        <li>A Link is a <b>connection</b> from one web resource to another.</li>
+        <li>A link has two ends,</li>
+        <ul class="imp_point1">
+            <li>Source</li>
+            <li>Destination</li>
+        </ul>
+        <li>The link starts at the "Source" anchor and points to the "destination" anchor,</li>
+        <li>The destination may be any Web resource such as an image, a video clip, a sound bite, a program, an HTML document or an element within a HTML document.</li>
+        <li>A Web page can can contain various links that take you directly to other page and even specific parts of a give page.These links are known as <b>hyperlinks.</b></li>
+        <li>hyperlinks allow visitors to navigate between Web sites by clicking on words,phrases, and images.</li>
+        <li>Thus you can create hyperlinks using text or images available on a webpage.</li>
+        <li>In HTML, links are defined with the <b> < a ></b> tag.</li>
+        <br>
+        <li type="none">Syntax of <b>< a ></b>tag:</li>
+        <br>
+        <img src="./img/link.png" alt="Img not show">
+        <li><b>href -></b> specifies the destination address.</li>
+        <li><b>link text -></b> the visible part.</li>
+        <li>clicking on the link text,will <b>send</b> you to the specified address. </li>
+        <br>
+        <li type="none">Example: </li>
+        <br>
+        <img src="./img/link-1.png" alt="Img not show">
+        <br>
+    </ul>
+    <br>
+    <h2>HTML Link - Colors</h2>
+    <br>
+    <p class="imp_point">When you move the mouse over a link ,two things will normally happen:</p>
+    <br>
+    <ul class="imp_point1">
+        <li>The mouse arrow will turn into a little hand</li>
+        <li>Thw color of the link element will change</li>
+    </ul>
+    <br>
+    <p class="imp_point">By default, a link will appear link this(in all browsers):</p>
+    <br>
+    <ul class="imp_point1">
+        <li>An unvisited link is <b><u>underlined</u></b> and <b style="color: blue;">blue</b></li>
+        <li>A Visited link is <b><u>underlined</u></b> and <b style="color: purple;">Perple</b></li>
+        <li>A active link is <b><u>underlined</u></b> and <b style="color: red;">red</b></li>
+    </ul>
+    <br>
+    <h2>HTML Links - The target Attribute</h2>
+    <br>
+    <p class="imp_point">The target attribute specifies where to open the linked document.</p>
+    <br>
+    <table border="1px solid black">
+        <tr>
+            <th><b>Target Value</b></th>
+            <th><b>Description</b></th>
+        </tr>
+        <tr>
+            <th>_blank</th>
+            <td>Opens the linked document in a new window or tab</th>
+        </tr>
+        <tr>
+            <th>_self</th>
+            <td>Opens the linked document in the same frame as it was clicked(this is default)</th>
+        </tr>
+        <tr>
+            <th>_parent</th>
+            <td>opens the linked document in the parent frame</td>
+        </tr>
+        <tr>
+            <th>_top</th>
+            <td>Opens the linked document in the full body of the window</td>
+        </tr>
+        <tr>
+            <th>framename</th>
+            <td>Opens the linked document in a named frame</td>
+        </tr>
+    </table>
+    <br>
+    <h2>HTML - List</h2>
+    <br>
+    <ul class="imp_point">
+        <li>The list allows us to group the set of items.</li>
+        <li>Types od list in HTML:</li>
+        <ul>
+            <li>Unordered List</li>
+            <li>Ordered List</li>
+            <li>Description List</li>
+        </ul>
+    </ul>
+    <br>
+    <br>
+    <ol class="imp_point" start="1">
+        <h2>
+            <li>Unordered List</li>
+        </h2>
+    </ol>
+    <ul class="imp_point1">
+        <br>
+        <li>The unordered list is a bulleted list.</li>
+        <li>The unordered list starts with < ul > and ends with </ ul ></li>
+        <li>Each item is to be listed in < li > < /li > tag.</li>
+        <br>
+        <li><b>Example :</b></li>
+        <br>
+        <img src="./img/unordered list.png" alt="Img not show" class="imp_point1">
+        <br>
+    </ul>
+    <br>
+    <ol class="imp_point" start="2">
+        <h2>
+            <li start="2" >Ordered List</li>
+        </h2>
+    </ol>
+    <ul class="imp_point1">
+        <br>
+        <li>The ordered list can be either numerical order or alphabetical order.</li>
+        <li>The ordered list starts with < ol > and ends with < /ol >.  </li>
+        <li>Each item is to be listed in < li > < /li> tag.</li>
+        <li>Type attribute has to be used to specify the order of the list.</li>
+        <li>The type can be numerical, alphabets in upper or lower case, and roman numbers in upper or lower case.</li>
+        <li>The default value for type is 1,which denotes numerical.</li>
+        <br>
+        <li><b>Example :</b></li>
+        <br>
+        <img src="./img/ordered list.png" alt="Img not show" class="imp_point1">
+        <br>
+        <br>
+        <img src="./img/orderlist(1).png" alt="Img not show" class="imp_point1">
+    </ul>
+    <br>
+    <ol class="imp_point" start="3">
+        <h2>
+            <li>Description List</li>
+        </h2>
+    </ol>
+    <br> 
+    <ul  class="imp_point1">
+        <li>The descriptive list is used to provide Description to the items list.</li>
+        <li>< dl > < /dl> tag defines the Description list.</li>
+        <ul>
+            <li>< dt > < /dt> tag defines the items in the list.</li>
+            <ul>
+                <li>< dd >< /dd > tag defines the description of the tag.</li>
+            </ul>
+        </ul>
+        <br>
+        <li><b>Example :</b></li>
+        <br>
+        <img src="./img/description list.png" alt="Img not show" srcset="" class="imp_point1">
+        <br>
+    </ul>
+
+    <br>
+    <br>
+    <hr>
+    <h1>End of Links and Lists</h1>
+    <hr>
+</body>
+</html>

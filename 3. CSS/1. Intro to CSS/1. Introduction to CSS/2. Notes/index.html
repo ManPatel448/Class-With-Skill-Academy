@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <hr>
+    <h1>Introduction to CSS</h1>
+    <hr>
+    <br>
+    <div class="topics_cover">
+        <h5>Topics Covered:</h5>
+        <ul>
+            <li>What is CSS?</li>
+            <li>Purpose of CSS</li>
+            <li>Syntax of CSS</li>
+            <li>Comments in cSS</li>
+            <li>What are the differents ways to include CSS?</li>
+            <ul>
+                <li>Inline CSS</li>
+                <li>Internal CSS</li>
+                <li>External CSS</li>
+            </ul>
+        </ul>
+    </div>
+    <br>
+    <h3>Topics in Detail</h3>
+    <br>
+    <div class="topics_detail">
+        <h2>CSS:</h2>
+        <br>
+        <ul>
+            <li>CSS stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heet.</li>
+            <br>
+            <li>CSS is used to give styles to HTML elements.</li>
+            <br>
+            <li>CSS is used to control the style of the web document in a simple and easy way</li>
+            <br>
+            <li>CSS describes how the HTML elements have to be displayed on the browser.</li>
+            <br>
+            <li>When CSS is applied externally the same styles can be applied to multiple elements and pages. So it
+                saves work and effort.</li>
+            <br>
+            <center>
+                <img src="./img/css image.png" alt="Img not show" class="css_topic">
+            </center>
+            <center>
+                <p class="image_content">HTML just gives structure to your web pages, where CSS styles the
+                    elements,defines layout and makes the web
+                    page look attractive.
+                </p>
+            </center>
+        </ul>
+    </div>
+    <br>
+    <div class="purpose">
+        <h2>Purpose of CSS</h2>
+        <br>
+        <ul>
+            <li>The purpose of CSS is to make web pages presentable.</li>
+            <br>
+            <li>Example: Web page without any styles applied.</li>
+            <br>
+        </ul>
+        <img src="./img/purpose.png" alt="Img not show" class="purpose_css">
+        <ul>
+            <br>
+            <li>Same web page when styles are applied.</li>
+            <br>
+        </ul>
+        <img src="./img/style of purpose.png" alt="img not show" class="purpose_css">
+    </div>
+    <br>
+    <h2>Application of CSS</h2>
+    <br>
+    <ul>
+        <li>Creating stunning web pages and websites.</li>
+        <li>Saves time by reusing the styles.</li>
+        <li>Easy to maintain.</li>
+    </ul>
+    <br>
+    <h2>CSS Syntax:</h2>
+    <br>
+    <ul>
+        <li>Inline style:</li>
+        <br>
+        <img src="./img/inline css.png" alt="img not show" class="inline_css">
+    </ul>
+    <br>
+    <h2>Internal Css:</h2>
+    <br>
+    <img src="./img/internal_css.png" alt="img not show" class="internal_css">
+    <br>
+    <ul>
+        <li>Each declaration has CSS properties and the value, separated by the semi colon.</li>
+        <li>In the first declaration color is the property and blue is the value.</li>
+        <li>In the second declaration font-size is the property and 50px is the value.</li>
+    </ul>
+    <br>
+    <h2>Comments in CSS:</h2>
+    <br>
+    <ul>
+        <li>Comments will not be displayed in the browser, but they help to understand the code better.</li>
+        <br>
+        <li>Comments cannot be added in the inline styles of CSS. But they can be added in internal CSS and external
+            CSS.</li>
+        <br>
+        <li>Internal CSS:</li>
+        <ul>
+            <li>Comments have to be added inside the <style> </style> tag.</li>
+            <li>CSS comment starts with /* and ends with */</li>
+            <li><b>Example:</b></li>
+            <br>
+            <img src="./img/css comment..png" alt="Img not show" class="comment_css">
+            <br>
+        </ul>
+        <li>Comments can be added in the same way in the external style sheet.</li>
+    </ul>
+    <br>
+    <h2>CSS Inclusion:</h2>
+    <br>
+    <p type="none">There are three ways to include styles to your HTML elements. They are:</p>
+    <ul>
+        <li>Inline CSS or Inline styles.</li>
+        <li>Internal CSS or Embedded CSS.</li>
+        <li>External CSS or External style sheet</li>
+    </ul>
+    <br>
+    <h3>Inline CSS</h3>
+    <br>
+    <ul>
+        <li>The inline styling is done with help of the style attribute.</li>
+        <li>The style attribute can be added to the HTML element to which the style has to be applied. And styles can be
+            specified as the value of the style attribute.</li>
+        <li>Example:</li>
+        <br>
+        <img src="./img/inline css.png" alt="Img not show">
+        <br>
+        <li>The value of style attribute is the combination of style declarations separated by semicolons.</li>
+        <li>Output of the above code:</li>
+        <br>
+        <img src="./img/inline css output.png" alt="Img not show">
+        <br>
+    </ul>
+    <br>
+    <h3>Internal CSS</h3>
+    <br>
+    <ul>
+        <li>In order to reuse the same styles within the same page or to apply same styles for multiple elements styles
+            can be given inside the < style>
+                < /style> tags inside the < head>
+                        < /head> part of the document.</li>
+        <br>
+        <li>Example:</li>
+        <br>
+        <img src="./img/internal_css.png" alt="Img not show">
+        <br>
+        <li>Output of the above code:</li>
+        <br>
+        <img src="./img/internal_css output.png" alt="Img not show">
+    </ul>
+    <br>
+    <h3>External CSS</h3>
+    <br>
+    <ul>
+        <li>The external style sheet is generally used when the same style has to be applied in multiple pages.</li>
+        <br>
+        <li>The syntax will be similar to the internal CSS/ Embedded CSS, but the styles will be included from the
+            external sheet which will be connected to the HTML file by linking the external style sheet.</li>
+        <br>
+        <li>The external style sheet can be linked with the help of < link> tag.</li>
+        <br>
+        <li>The external style sheet included should have the extension as .css.</li>
+        <br>
+        <li>Example:</li>
+        <br>
+        <img src="./img/external css.png" alt="Img not show">
+        <br>
+        <li>Folder files:</li>
+        <br>
+        <img src="./img/folder file.png" alt="Img not show">
+        <br>
+        <li>Attributes and their purpose:</li>
+        <br>
+        <table border="1">
+            <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>text/css</td>
+                <td>Specifies the style language.</td>
+            </tr>
+            <tr>
+                <td>href</td>
+                <td>URL</td>
+                <td>Specifies the URL/ path link of the external style sheet</td>
+            </tr>
+            <tr>
+                <td>rel</td>
+                <td>stylesheet/icon</td>
+                <td>Specifies the relationship between the current document and the linked document. Optional attribute
+                </td>
+            </tr>
+        </table>
+
+    </ul>
+
+    <br>
+    <hr>
+    <h1>End of Introduction to CSS</h1>
+    <hr>
+</body>
+
+</html>

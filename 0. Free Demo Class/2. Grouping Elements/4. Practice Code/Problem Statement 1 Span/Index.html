@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Problem Statement 1 Span</title>
+    <style>
+        .header, .highlights{
+            color: red;
+        }
+        .content{
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <!--the main class encapsulates header and content divisions, if any style is applied to main class then those styles will be applicable to header and content divisions-->
+
+    <div class="main">
+        <!-- Header class division -->
+        <div class="header">
+            <h1>Latest News</h1>
+            <h4>Covid-19: Molnupiravir benefits outweigh risks, say top medical experts</h4>
+        </div>
+
+        <!-- content class Division -->
+        <div class="content">
+            <p>
+                Leading Covid-19 task force members and health experts treating coronavirus patients across the country said on Monday that the Covid antiviral drug molnupiravir is reducing hospitalisation by
+                 <!--the span is included inside the paragraph and a seperate style is applied to it-->
+                <span class="highlights"> 30-50 % </span>, as well as the severity of the disease.
+            </p>
+            <p> Everybody knows that
+                <!--the span is included inside the paragraph and a seperate style is applied to it-->
+                <span class="highlights">face masks are key </span> to preventing the spread of the pandemic. But not all masks hold up well in the face of the highly transmissible Omicron variant</p>
+        </div>
+    </div>
+</body>
+</html>

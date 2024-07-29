@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <hr>
+    <h1>Media</h1>
+    <hr>
+    <br>
+    <h2>HTML - Media</h2>
+    <br>
+    <ul class="imp_point">
+        <li>Media on the web page is images, sounds, videos, and animations.</li>
+        <li>Media elements can be included in different formats.</li>
+        <br>
+        <img src="./img/audio.png" alt="Img not show">
+        <br>
+        <div class="main img">
+            <img src="./img/img1.png" alt="Img not show">
+            <img src="./img/img2.png" alt="Img not show" srcset="">
+        </div>
+    </ul>
+    <br>
+    <h2>HTML - Images</h2>
+    <br>
+    <ul>
+        <li>Images can be added to the web page by using the tag < img >. Images are linked to the web pages and not inserted in the web pages.</li>
+        <li>< img > tag can be included in the < body > of the HTML document.</li>
+        <br>
+        <li>Syntax : <b>< img src = "image_url" alt="alternate text"></b></li>
+        <br>
+    </ul>
+    <br>
+    <h2 class="imp_point">HTML - Image Attributes</h2>
+    <br>
+    <ul>
+        <li>Attributes of < img > tag: </li>
+        <ul class="imp_point1">
+            <li><b>src - </b> source attribute specifies the path of the image that need to be displayed/linked to the web page.</li>
+            <li><b>alt - </b> alternate attribute specifies the alternate text that has to be displayed on the web page in case of issues in viewing the image (slow connection).</li>
+            <li><b>width </b>and <b>height</b> attributes are used to define the width and height of the image in pixels.</li>
+        </ul>
+        <br>
+        <li type="none"><b>Example :</b></li>
+        <br>
+        <li type="none" class="imp_point1"><b>< img src="./img/audio .png" alt="Img not show"> < /img > </b></li>
+    </ul>
+    <br>
+    <br>
+    <h2 class="imp_point">HTML - Image Extensions</h2>
+    <br>
+    <table>
+        <tr>
+            <th>File Extension</th>
+            <th>File Format</th>
+        </tr>
+        <tr>
+            <th><b>.png</b></th>
+            <td>Portable Network Graphics</td>
+        </tr>
+        <tr>
+            <th><b>.jpg, .jpeg, .jfif, .pjpeg, .pjp</b></th>
+            <td>Joint Photographic Experts Group image</td>
+        </tr>
+        <tr>
+            <th><b>.svg</b></th>
+            <td>Scalable Vector Graphics</td>
+        </tr>
+        <tr>
+            <th><b>.gif</b></th>
+            <td>Graphics Interchange Format</td>
+        </tr>
+        <tr>
+            <th>.apng</th>
+            <td>Animated portable Network Graphics</td>
+        </tr>
+    </table>
+    <br>
+    <h2>HTML - Audio</h2>
+    <br>
+    <ul class="imp_point">
+        <li>< audio > element is used to include and play audio files in the HTML. </li>
+        <li>The < source > element allows you to specify the audio link.</li>
+        <li>Multiple < source > elements can be included under a single < audio > element, Where the browser will choose the first recognized format.</li>
+        <li>Play,pause and volume can be controlled by using the controls attribute to the audio element.</li>
+        <li>The text in between the < audio > and < /audio > element will be displayed when the browser does not support the include audio source.  </li>
+        <br>
+        <li><b>Example :</b></li>
+        <br>
+        <ul class="imp_point1">
+            <li type="none"><b>< audio controls autoplay ></b></li>
+            <li type="none" class="imp_point"><b>< source src="alligator.mp3" type="audio/ogg" ></b></li>
+            <li type="none" class="imp_point1"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your browser does not support the audio element.</b></li>
+            <li type="none"><b>< /audio ></b></li>
+        </ul>
+        <br>
+        <li><b>Output:</b></li>
+        <br>
+        <ul class="imp_point1">
+            <img src="./img/audio.png" alt="Img not show">
+        </ul>
+    </ul>
+    <br>
+    <br>
+    <h2 class="imp_point">HTML - Audio Extensions</h2>
+    <br>
+    <table style="border: 1px solid black;">
+        <tr>
+            <th>File extension</th>
+            <th>File Format</th>
+        </tr>
+        <tr>
+            <th>.mp3</th>
+            <td>MPEG audio layer-3</td>
+        </tr>
+        <tr>
+            <th>.ogg</th>
+            <td>ogging</td>
+        </tr>
+        <tr>
+            <th>.wav</th>
+            <td>Waveform audio file formate</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <h2>HTML - Video</h2>
+    <br>
+    <ul class="imp_point">
+        <li>< video > element is used to include and play audio files in thr HTML</li>
+        <li>The < source > element allows you to specify the audio link.</li>
+        <li>Multiple < source > elements can be included under a single < video > element, where the browser will choose the first recognized format.</li>
+        <li>Play, pause and Volume can be controlled by using the <b>controls</b> attribute to the audio element.</li>
+        <li>The text in between the < video > and < /video > element will be displayed when the browser does not support the included audio source.</li>
+        <li>Width and height attributes can be added to specify the area of the video clip and to avoid unwanted flickering.</li>
+        <br>
+        <li><b style="color: blue;">Example 1:</b></li>
+    </ul>
+    <br>
+    <br>
+    <ul class="imp_point">
+        <li type="none"><b>< video width="320" height="240" autoplay></b></li>
+        <ul class="imp_point1">
+            <li type="none"><b>< source src="video1.mp4" type="video/mp4"></b></li>
+            <ul>
+                <li type="none"><b>Your browser does not support the video tag.</b></li>
+            </ul>
+        </ul>
+        <li type="none"><b>< /video ></b></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <h2>HTML - iframe</h2>
+    <br>
+    <br>
+    <ul class="imp_point">
+        <li>Html iframe are used to display a webpage within a webpage.</li>
+        <li>< iframe > is an inline level tag.</li>
+        <li>Youtube videos can be played inside a webpage  by using < iframe > tag.</li>
+        <br>
+        <li><b style="color: blue;">Example (Autoplay + Mute):</b></li>
+        <br>
+    </ul>
+    <ul class="imp_point1">
+        <li type="none"><b>< iframe width="420" height="315" <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src="https://www.youtube.com/watch?v=VvjPbGXzSL0&ab_channel=TANSAFTECH"></b></li>
+        <li type="none"><b>< /iframe></b></li>
+    </ul>
+    <br>
+    <ul class="imp_point">
+        <li>To Play the video loop=1 has to be added along with the youtube link.</li>
+        <br>
+        <li><b style="color: blue;">Example (loop):</b></li>
+    </ul>
+    <br>
+    <ul class="imp_point1">
+        <li type="none"><b>< iframe width="420" height="315" <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src="https://www.youtube.com/watch?v=VvjPbGXzSL0&ab_channel=TANSAFTECH"></b></li>
+        <li type="none"><b>< /iframe></b></li>
+    </ul>
+    <br>
+    <ul class="imp_point">
+        <li>By Default the player control will be displayed for youtube video,the default value of controls is 1. </li>
+    </ul>
+    <br>
+    <hr>
+    <h1>End of Media</h1>
+    <hr>
+</body>
+</html>

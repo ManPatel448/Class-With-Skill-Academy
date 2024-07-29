@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How HTML forms are created?</title>
+    <link rel="stylesheet" href="./Html form.css">
+</head>
+<body>
+    <hr>
+    <h1>How HTML forms are created?</h1>
+    <hr>
+    <br>
+    <h2>HTML - Forms</h2>
+    <br>
+    <ul>
+        <li>HTML form is a part of a document, used to collect and store user information/data.</li>
+        <li>The collected information is often sent to the server for processing.</li>
+        <li>Form can contain the input element like input text boxes,input text areas,labels,checkboxes,radio buttons,submit button,etc....</li>
+        <li>The from can contain different elements for collecting username,password,email id, Date of birth,check box,radio buttons...</li>
+        <li>HTML Forms can be created by using <b> < form >< /form > </b> tag.</li>
+        <br>
+        <img src="./image/form-removebg-preview.png" alt="image not show" srcset="" id="formimg">
+    </ul>
+    <br>
+    <br>
+    <h2>HTML - Form Attributes</h2>
+    <br>
+    <ul>
+        <li><b>action - </b> Defines the action to be performed when the form is submitted.</li>
+        <li><b>method - </b> Defines the HTTP method to be used while submitting the form.</li>
+    </ul>
+    <br>
+    <table>
+        <tr>
+            <th><b>method</b></th>
+            <th><b>Description</b></th>
+        </tr>
+        <tr>
+            <td rowspan="3" style="text-align: center;"><b>get</b></td>
+            <td>After submission of form, form values will be visible in the address bar of the browser tab. So for sending sensitive information the get method should not be used.</td>
+        </tr>
+        <tr>            
+            <td>Length of the url is limited.(2048 characters)</td>
+        </tr>
+        <tr>
+            <td>Form submission with get method can be bookmarked.</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="text-align: center;"><b>post</b></td>
+            <td>After submitting the form the values will not be visible in the address bar.</td>
+        </tr>
+        <tr>
+            <td>No size limitations,large amounts of data can be sent.</td>
+        </tr>
+        <tr>
+            <td>Form submission with post method cannot be bookmarked.</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <ul>
+        <li><b>target - </b> Defines the place where the response (received after submitting the form ) is to be displayed.</li>
+    </ul>
+
+    <br>
+    <table style=" width: 100%; height: 100%; text-align: center;">
+        <tr>
+            <th><b>value</b></th>
+            <th><b>Response displayed in</b></th>
+        </tr>
+        <tr>
+            <td><b>_blank</b></td>
+            <td>New tab.</td>
+        </tr>
+        <tr>
+            <td><b>_self</b></td>
+            <td>Current window</td>
+        </tr>
+        <tr>
+            <td><b>parent</b></td>
+            <td>Parent frame</td>
+        </tr>
+        <tr>
+            <td><b>_top</b></td>
+            <td>Full body of the window.</td>
+        </tr>
+    </table>
+    <br>
+
+    <ul>
+        <li><b>autocomplete - </b>Defines whether the form should have autocomplete on or off.</li>
+    </ul>
+    <br>
+    <table >
+        <tr>
+            <th>on</th>
+            <td>Browser automatically completes values based on previous inputs. </td>
+        </tr>
+        <tr>
+            <th>off</th>
+            <td>Browser will not support autocomplete functionality.</td>
+        </tr>
+    </table>
+    <br>
+    <h2>HTML - Input elements</h2>
+    <br>
+    <ul>
+        <li>The <b>< input ></b> element is used  to get input from the user. The < input > element can be displayed in many ways depending on the <b>type</b> Attribute.</li>
+    </ul>
+    <br>
+    <table class="inputtab">
+        <tr>
+            <th><b>type attribute values</b></th>
+            <th><b>Description</b></th>
+        </tr>
+        <tr>
+            <td><b> < input type="text"></b></td>
+            <td>Text input field</td>
+        </tr>
+        <tr>
+            <td><b> < input type="email"></b></td>
+            <td>The user input should contain an email address when submitting the email validation will be done automatically.</td>
+        </tr>
+        <tr>
+            <td><b>< input type="submit"></b></td>
+            <td>Displays a submit button,for submitting a form.</td>
+        </tr>
+        <tr>
+            <td><b>< input type= "button"></b></td>
+            <td>Displays a clickable button</td>
+        </tr>
+        <tr>
+            <td><b>< input type = "radio"></b></td>
+            <td>Displays radio button, to select one of multiple options.</td>
+        </tr>
+        <tr>
+            <td><b>< input type = "checkbox"></b> </td>
+            <td>Displays a checkbox, to select Zero/one/multiple options.</td>
+        </tr>
+        <tr>
+            <td><b>< input type = "date"></b></td>
+            <td>The user field should contain a date, it does date validations.</td>
+        </tr>
+        <tr>
+            <td><b>< input type = "number"></b></td>
+            <td>Numeric input field,the restriction can be made to accept only a specific set of numbers.</td>
+        </tr>
+    </table>
+    <br>
+    <h2>HTML - Input Element Attributes</h2>
+    <br>
+    <table>
+        <tr>
+            <th><b>Attribute</b></th>
+            <th><b>Values</b></th>
+            <th><b>Description</b></th>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Name of the class</td>
+            <td>Specifies one or more class names for the element.Used to apply styles.</td>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>Unique if of the element</td>
+            <td>Used to apply styles and scripts.</td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>Name of the element</td>
+            <td>Used to refer to the element in javascript</td>
+        </tr>
+        <tr>
+            <td>placeholder</td>
+            <td>Any name</td>
+            <td>Specifies a short hint of the expected value.</td>
+        </tr>
+        <tr>
+            <td>required</td>
+            <td colspan="2">When present specifies,the input field must be filled before submitting the form.</td>
+        </tr>
+        <tr>
+            <td>type</td>
+            <td>text,number,email,button...</td>
+            <td>Specifies the type of input that the user should enter before submitting the form.</td>
+        </tr>
+    </table>
+    <br>
+    <h2>HTML - Form Elements</h2>
+    <br>
+    <ul>
+        
+        <li type="none"><b>< textarea ></b></li>
+        <br>
+        <li>The text area is a multiple-line text input field.</li>
+        <li>The text area is often used in a form to collect user information like comments, messages,reviews,etc..</li>
+        <br>
+        <li type="none"><b>Example:</b></li>
+        <br>
+        <img src="./image/element.png" alt="Image" srcset="" id="elemetimg">
+        <br>
+        <br>
+        <li>The Attributes rows and cols are used to specify the size of the text area.</li>
+    </ul>
+    <br>
+    <ul>
+        <li type="none"><b>< label ></b></li>
+        <br>
+        <li>Label defines what to be entered in the input fields.</li>
+        <li>Labels are optional in forms.</li>
+        <br>
+        <li type="none"><b>Example:</b></li>
+        <br>
+        <img src="./image/label.png" alt="Image" srcset="" id="elemetimg">
+        <br>
+        <br>
+        <li>The attribute for is used to define for which input field this label is used.</li>
+    </ul>
+    <br>
+    <ul>
+        <li type="none"><b>< button ></b></li>
+        <br>
+        <li>The < button > tag defines the clickable button.</li>
+        <li>The < button > tag also has the type and class attribute which is the same as the < input > tag.</li>
+        <br>
+        <li type="none"><b>Example:</b></li>
+        <br>
+        <img src="./image/buttone.png" alt="Image" srcset="" id="elemetimg">
+        <br>
+        <br>
+        <li>The attribute onclick defines what should happen on the click of a button.Usually it is used to call javascript functions.</li>
+    </ul>
+    <br>
+    <br>
+    <hr>
+    <h1>End for HTML Forms</h1>
+    <hr>
+</body>
+</html>

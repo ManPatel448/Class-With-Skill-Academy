@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+body{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+h1{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1:hover{
+    color: blue;
+}
+hr{
+    background-color: dimgrey;
+    color: dimgrey;
+    border: solid 2px dimgrey;
+    height: 7px;
+}
+h2{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+h3:hover{
+    color: blue;
+}
+b{
+    /* text-transform: uppercase; */
+}
+b:hover{
+    color: red;
+}
+#formimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* table{
+    border: 1px solid black;
+    border-radius: 12%;
+} */
+table{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+td,tr,th{
+    border: 1px solid #000;
+
+}
+th{
+    text-align: center;
+}
+.inputtab{
+    width: 100%;
+    height: 100%;
+}
+#elemetimg{
+    margin-left: 105px;
+    object-fit: cover;
+}

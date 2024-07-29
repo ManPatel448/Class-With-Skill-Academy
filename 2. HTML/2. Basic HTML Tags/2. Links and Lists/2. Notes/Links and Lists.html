@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Links and Lists</title>
+    <link rel="stylesheet" href="./Links and Lists.css">
+</head>
+<body>
+    <hr>
+    <h1> Notes Links and Lists</h1>
+    <hr>
+    <br>
+    <h2>Topics introduced:</h2>
+    <br>
+    <ul class="imp_point1">
+        <li>What is an HTML link?</li>
+        <li>What is the syntax for including hyperlinks?</li>
+        <li>How to differentiate visited and unvisited links?</li>
+        <li>What is the target attribute?</li>
+        <li>What are HTML Lists?</li>
+        <li>Different types of HTML Lists?</li>
+    </ul>
+    <br>
+    <h2>Topics in Detail:</h2>
+    <br>
+    <br>
+    <h2>Links:</h2>
+    <br>
+    <ul class="imp_point">
+        <li>A link is a <b>connection</b> from one web resource to another.</li>
+        <li>A link need not be a text always, it can be an image or any other HTML elements</li>
+        <li>By using a link one can jump from the current web page to another web page.</li>
+        <li>A link has two ends,</li>
+        <ul class="imp_point">
+            <li>Source</li>
+            <li>Destination</li>
+        </ul>
+        <li>The link starts at the “source” anchor and points to the “destination” anchor.</li>
+        <li>The destination may be any Web resource such as an image, a video clip, a sound bite, a program, an HTML document or an element within an HTML document.</li>
+    </ul>
+    <br>
+    <h2 class="imp_point">HTML Link Syntax:</h2>
+    <br>
+    <ul class="imp_point1">
+        <li> < a > tag defines hyperlink.</li>
+        <li>Syntax:</li>
+        <ul class="imp_point1">
+            <li type="none">< a href="url">link text< /a></li>
+        </ul>
+        <li>where,</li>
+        <ul class="imp_point1">+
+            <li type="none"><b>href -</b> specifies the destination address.</li>
+            <li type="none"><b>link text - </b> the visible part.</li>
+        </ul>
+        <br>
+        <li>Example:</li>
+        <ul>
+            <br>
+            <li type="none"><img src="./img/Example.png" alt="Img not show" class="imp_point1"></li>
+        </ul>
+    </ul>
+    <br>
+    <br>
+    <h2 class="imp_point">HTML Link colors:</h2>
+    <br>
+    <ul class="imp_point">
+        <li type="none">When you move the mouse over a link, two things will normally happen:</li>
+    </ul>
+    <br>
+    <ul class="imp_point1">
+        <li>The mouse arrow will turn into a little hand.</li>
+        <li>The color of the link element will change.</li>
+    </ul>
+    <br>
+    <ul class="imp_point">
+        <li type="none">By default, links will appear as follows in all browsers:</li>
+    </ul>
+    <br>
+    <ul class="imp_point1">
+        <li> An unvisited link is <u>underlined</u> and <b style="color: blue;">blue.</b></li>
+        <br>
+        <img src="./img/blue.png" alt="img not show" class="imp_point1">
+        <br>
+        <br>
+        <li>The visited link is <u>underlined</u> and <b style="color: purple;">purple.</b></li>
+        <br>
+        <img src="./img/purpal.png" alt="img not show" class="imp_point1">
+        <br>
+        <br>
+        <li>An active link is <u>underlined</u> and <b style="color: red;">red.</b></li>
+        <br>
+        <br>
+        <img src="./img/red.png" alt="img not show" class="imp_point1">
+        <br>
+        <br>
+    </ul>
+    <h2>HTML Target attributes:</h2>
+    <br>
+    <ul class="imp_point">
+        <li>By default, the linked page will be displayed in the current browser window. But this can be changed by specifying another target for the link.</li>
+        <li>The target attribute specifies where to open the linked document.</li>
+    </ul>
+    <br>
+    <ul>
+        <li type="none">Values of target attribute and description:</li>
+    </ul>
+    <br>
+    <table border="1px solid black">
+        <tr>
+            <th>Value</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <th><b>_self</b></th>
+            <td>Default. Opens the document in the same window/tab as it was clicked.</td>
+        </tr>
+        <tr>
+            <th>_blank </th>
+            <td>Open the document in a new window or tab.</td>
+        </tr>
+        <tr>
+            <th>_parent</th>
+            <td>Open the document in the parent frame.</td>
+        </tr>
+        <tr>
+            <th>_top </th>
+            <td>Open the document in the full body of the window.</td>
+        </tr>
+    </table>
+    <br>
+    <h2>HTML List:</h2>
+    <br>
+    <ul class="imp_point">
+        <li>The list allows us to group the set of items.</li>
+        <li>Types of list in HTML:</li>
+        <ul class="imp_point1">
+            <li>Unordered list</li>
+            <li>Ordered list.</li>
+            <li>Description list</li>
+        </ul>
+    </ul>
+    <br>
+    <h2 class="imp_point">Unordered list:</h2>
+    <br>
+    <ul class="imp_point1">
+        <li>The unordered list is a bulleted list.</li>
+        <li>The unordered list starts with < ul > and ends with < /ul ></li>
+        <li>Each item is to be listed in < li < /li > tag.</li>
+        <br>
+        <li><b>Example: </b></li>
+        <br>
+        <img src="./img/unorder list.png" alt="Img not show" class="imp_point1">
+    </ul>
+    <br>
+    <h2 class="imp_point">Ordered list:</h2>
+    <br>
+    <ul class="imp_point1">
+        <li>The ordered list can be either numerical order or alphabetical order.</li>
+        <li>The ordered list starts with < ol > and ends with < /ol ></li>
+        <li>Each item is to be listed in < li > < /li > tag.</li>
+        <li>Type attribute has to be used to specify the order of the list.</li>
+        <li>The type can be numerics, alphabets in upper or lower case, and roman numbers in upper or lower case.</li>
+        <li>The default value for type is 1, which denotes numerics.</li>
+        <br>
+        <li type="none"><b>Example: </b></li>
+        <br>
+        <img src="./img/order list.png" alt="Img not show" class="imp_point1">
+        <br>
+    </ul>
+    <br>
+    <h2 class="imp_point">Descriptive list:</h2>
+    <br>
+    <ul class="imp_point1">
+        <li >The descriptive list is used to provide description to the items listed.</li>
+        <li>< dl >< /dl > tag defines the description list.</li>
+        <ul>
+            <li>< dt> < /dt > tag defines the items in the list.</li>
+            <ul>
+                <li>< dd > < /dd > tag defines the description of the tag.</li>
+            </ul>
+        </ul>
+        <br>
+        <li type="none">Example:</li>
+        <br>
+        <img src="./img/descriptive list.png" alt="Img not show" class="imp_point1">
+    </ul>
+    <br>
+    <h2>Utility of topics learned in Static linkedin page project:</h2>
+    <br>
+    <h5 class="imp_point">Links: </h5>
+    <br>
+    <img src="./img/Static linkedin page project.png" alt="Img not show" class="imp_point1" >
+    <br>
+    <br>
+    <hr>
+    <h1>Notes End of Links and Lists</h1>
+    <hr>
+</body>
+</html>
